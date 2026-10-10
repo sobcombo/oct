@@ -128,6 +128,11 @@ select{
     background-position:right 12px center;
 }
 
+#combo,
+#editCombo{
+    font-variant-numeric:tabular-nums;
+}
+
 button{
     margin:6px;
     padding:12px 18px;
@@ -830,6 +835,468 @@ body.dark .editCard::-webkit-scrollbar-thumb{
     }
 }
 
+/*
+body.golden input,
+body.golden select,
+body.golden .sobField,
+body.golden .box,
+body.golden .editCard,
+body.golden .print-dropdown{
+    color:#4a3514;
+    background-color:#ead39a;
+}
+
+body.golden input::placeholder{
+    color:#80642b;
+    opacity:1;
+}
+
+body.golden option{
+    color:#4a3514;
+    background:#ead39a;
+}
+
+body.golden .sobField input{
+    background:transparent;
+}
+
+body.golden .editField{
+    border-color:#b38a3d;
+}
+
+body.golden .editTitle{
+    color:#80642b;
+}
+
+body.golden .headerLine{
+    border-color:#80642b;
+}
+
+body.golden .highlight-total{
+    border-color:#b38a3d;
+    color:#4a3514;
+    background:#f0dda9;
+}
+
+body.golden table,
+body.golden th,
+body.golden td{
+    border-color:#b38a3d;
+    color:#4a3514;
+    background:#ead39a;
+}
+
+body.golden .activityTotalsCell{
+    background:#f0dda9;
+}
+
+body.golden #scanBtn{
+    border-left-color:#b38a3d;
+}
+
+body.golden .box,
+body.golden .editCard{
+    border-color:#b38a3d;
+}
+
+body.golden .print-dropdown{
+    border-color:#b38a3d;
+}
+
+body.golden .editField{
+    background-color:#f0dda9;
+    color:#4a3514;
+}
+
+body.golden .editField option{
+    background:#f0dda9;
+    color:#4a3514;
+}
+
+body.golden #scanBtn svg{
+    fill:#4a3514;
+}
+
+body.golden .activityTotalsCell{
+    color:#4a3514;
+}
+
+body.golden .headerLine{
+    color:#4a3514;
+}
+
+body.golden .highlight-total{
+    box-shadow:0 0 8px #d5ad51;
+    animation:none;
+}
+
+body.golden .print-user-item{
+    color:#4a3514;
+}
+
+body.golden .print-dropdown{
+    box-shadow:0 8px 20px #694b1640;
+}
+
+body.golden .editCard{
+    box-shadow:10px 14px 40px #694b1640;
+}
+
+body.golden .box{
+    box-shadow:8px 8px 20px #694b1630;
+}
+
+body.golden .sobField,
+body.golden input,
+body.golden select{
+    box-shadow:inset 2px 2px 5px #694b1614,4px 4px 10px #694b1620;
+}
+
+body.golden .sobField input{
+    box-shadow:none;
+}
+
+body.golden #scanBtn{
+    background:transparent;
+}
+
+body.golden .activityCell{
+    color:#4a3514;
+}
+
+body.golden .editTitle{
+    text-shadow:0 1px #f6e7bd;
+}
+
+body.golden .warning{
+    color:#7a321c;
+}
+
+body.golden .print-user-item input{
+    accent-color:#9a722b;
+}
+
+body.golden .headerLine{
+    border-bottom-color:#80642b;
+}
+
+body.golden hr{
+    border-color:#b38a3d;
+}
+
+body.golden .activityTotalsCell{
+    background:#e4c778;
+}
+
+body.golden th{
+    background:#dfc175;
+}
+
+body.golden input:focus,
+body.golden select:focus{
+    outline:2px solid #b38a3d;
+}
+
+body.golden .print-dropdown{
+    scrollbar-color:#b38a3d #ead39a;
+}
+
+body.golden .print-dropdown::-webkit-scrollbar-track{
+    background:#ead39a;
+}
+
+body.golden .print-dropdown::-webkit-scrollbar-thumb{
+    background:#b38a3d;
+    border-radius:10px;
+}
+
+body.golden .editCard{
+    scrollbar-color:#b38a3d #ead39a;
+}
+
+body.golden .editCard::-webkit-scrollbar-track{
+    background:#ead39a;
+}
+
+body.golden .editCard::-webkit-scrollbar-thumb{
+    background:#b38a3d;
+    border-radius:10px;
+}
+
+body.golden .table-wrapper{
+    scrollbar-color:#b38a3d #ead39a;
+}
+
+body.golden .table-wrapper::-webkit-scrollbar-track{
+    background:#ead39a;
+}
+
+body.golden .table-wrapper::-webkit-scrollbar-thumb{
+    background:#b38a3d;
+    border-radius:10px;
+}
+
+body.golden .headerLine,
+body.golden .headerText{
+    color:#4a3514;
+}
+
+body.golden .activityTotalsCell,
+body.golden .activityCell{
+    color:#4a3514;
+}
+
+body.golden .editField::placeholder{
+    color:#80642b;
+}
+
+body.golden .editTitle{
+    color:#80642b;
+}
+
+body.golden .print-dropdown{
+    color:#4a3514;
+}
+
+body.golden .table-wrapper{
+    background:#ead39a;
+}
+
+body.golden .headerLine{
+    background:transparent;
+}
+
+body.golden .sobField{
+    border:1px solid #b38a3d;
+}
+
+body.golden .box,
+body.golden .editCard{
+    border:1px solid #b38a3d;
+}
+
+body.golden .print-dropdown{
+    border:1px solid #b38a3d;
+}
+
+body.golden .highlight-total{
+    border:3px solid #b38a3d;
+}
+
+body.golden #scanBtn{
+    border-left:1px solid #b38a3d;
+}
+
+body.golden .editField{
+    border:2px solid #b38a3d;
+}
+
+body.golden .print-dropdown,
+body.golden .editCard{
+    color:#4a3514;
+}
+
+body.golden .activityTotalsCell{
+    font-weight:bold;
+}
+
+body.golden .table-wrapper::-webkit-scrollbar{
+    height:10px;
+}
+
+body.golden .print-dropdown::-webkit-scrollbar,
+body.golden .editCard::-webkit-scrollbar{
+    width:9px;
+}
+
+body.golden .editTitle{
+    text-shadow:none;
+}
+
+body.golden .highlight-total{
+    animation:none;
+}
+
+body.golden .box{
+    background:#ead39a;
+}
+
+body.golden .editCard{
+    background:#ead39a;
+}
+
+body.golden .print-dropdown{
+    background:#ead39a;
+}
+
+body.golden .sobField{
+    background:#ead39a;
+}
+
+body.golden input,
+body.golden select{
+    background-color:#f0dda9;
+}
+
+body.golden table,
+body.golden td{
+    background:#ead39a;
+}
+
+body.golden th{
+    background:#dfc175;
+}
+
+body.golden .activityTotalsCell{
+    background:#e4c778;
+}
+
+body.golden .headerLine{
+    border-bottom:1.5px solid #80642b;
+}
+
+body.golden #scanBtn svg{
+    fill:#4a3514;
+}
+
+body.golden .editTitle{
+    color:#80642b;
+}
+
+body.golden .print-user-item{
+    color:#4a3514;
+}
+
+body.golden .sobField input{
+    background:transparent;
+}
+
+body.golden .highlight-total{
+    color:#4a3514;
+    background:#f0dda9;
+}
+
+body.golden .editField{
+    color:#4a3514;
+}
+
+body.golden .header-right span{
+    color:#4a3514;
+}
+
+body.golden .footer-left{
+    color:#4a3514;
+}
+
+body.golden .hiText{
+    color:#4a3514;
+}
+
+body.golden .row{
+    color:#4a3514;
+}
+
+body.golden h2{
+    color:#4a3514;
+}
+
+body.golden .activityCell pre{
+    color:#4a3514;
+}
+
+body.golden .editCard div{
+    color:#4a3514;
+}
+
+body.golden .print-dropdown div{
+    color:#4a3514;
+}
+
+body.golden .editCard .saveBtn,
+body.golden .editCard .cancelBtn{
+    color:#fff;
+}
+
+body.golden .headerText{
+    color:#4a3514;
+}
+
+body.golden #cloudStatus{
+    color:inherit;
+}
+
+body.golden #warning{
+    color:#a3331e!important;
+}
+
+body.golden table{
+    border-color:#b38a3d;
+}
+
+body.golden th,
+body.golden td{
+    border-color:#b38a3d;
+}
+
+body.golden .editField{
+    border-color:#b38a3d;
+}
+
+body.golden .print-dropdown{
+    border-color:#b38a3d;
+}
+
+body.golden .sobField{
+    box-shadow:inset 2px 2px 5px #694b1614,4px 4px 10px #694b1620;
+}
+
+body.golden .box{
+    box-shadow:8px 8px 20px #694b1630;
+}
+
+body.golden .headerLine{
+    color:#4a3514;
+}
+
+body.golden .table-wrapper{
+    background:#ead39a;
+}
+
+body.golden .editModal{
+    background:#0008;
+}
+
+body.golden .activityTotalsCell{
+    background:#e4c778;
+}
+
+body.golden .print-split{
+    box-shadow:4px 4px 0 #bdbdbd,6px 8px 14px #0003;
+}
+
+body.golden .editActions button{
+    color:#fff;
+}
+
+body.golden .editTitle{
+    color:#80642b;
+}
+
+body.golden .headerLine{
+    border-color:#80642b;
+}
+
+body.golden .highlight-total{
+    border-color:#b38a3d;
+}
+
+body.golden table,
+body.golden th,
+body.golden td{
+    border-color:#b38a3d;
+}
+
+*/
 </style>
 </head>
 
@@ -858,38 +1325,21 @@ body.dark .editCard::-webkit-scrollbar-thumb{
 <select id="combo" onchange="calc()">
     <option value="">Select Combo</option>
 
-    <!-- New October 2026 combos -->
-    <option value="170,80,40,89">New1: 299/209</option>
-    <option value="170,80,0,227">New2: 397/307</option>
-    <option value="170,80,28,200">New3: 398/308</option>
-    <option value="170,80,255,0">New4: 425/335</option>
-    <option value="400,300,0,200">New5: 600/500</option>
-    <option value="170,170,0,529,NA">New6: 699/699</option>
-    <option value="550,375,0,150">New7: 700/525</option>
-    <option value="370,180,155,250">New8: 775/585</option>
-    <option value="370,180,249,150">New9: 769/579</option>
-    <option value="170,80,199,520">New10: 889/799</option>
-    <option value="370,280,105,450">New11: 925/835</option>
-    <option value="570,380,199,200">New12: 969/779</option>
-    <option value="350,175,200,550">New13: 1100/925</option>
-    <option value="1350,775,0,200">New14: 1550/975</option>
-    <option value="1400,1400,449,2400,NA">New15: 4249/4249</option>
-
-    <option value="170,80,70,150">390/300 TU Explorer Combo</option>
-    <option value="170,80,0,227">397/307 Adventure Combo</option>
-    <option value="170,80,28,200">398/308 ECO FUN Combo</option>
-    <option value="170,80,255,0">425/335 Snow Adventure Combo</option>
-    <option value="400,300,0,99">499/399 Aastha Combo</option>
-    <option value="370,180,0,175">545/355 Shiv Ganesha Combo</option>
-    <option value="550,375,0,50">600/425 Namah Combo</option>
-    <option value="170,170,0,529,NA">699/NA Ultimate Play Combo</option>
-    <option value="370,180,325,50">745/555 Viewing Fun Combo</option>
-    <option value="550,375,249,170">969/794 Symbolic Combo</option>
-    <option value="170,80,355,574">1099/1009 Delight Combo</option>
-    <option value="370,180,355,574">1299/1109 Mini Blast Combo</option>
-    <option value="550,375,250,599">1399/1224 All in Fun Combo</option>
-    <option value="1350,775,0,150">1500/925 Divine Rush Combo</option>
-    <option value="1400,1400,449,2350,NA">4199/NA Ultimate Mega Combo</option>
+    <option value="170,80,40,89">299/209&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Explorer Combo</option>
+    <option value="170,80,0,227">397/307&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Eco Adventure Combo</option>
+    <option value="170,80,28,200">398/308&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Eco Fun Combo</option>
+    <option value="170,80,255,0">425/335&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Snow Adventure Combo</option>
+    <option value="370,300,0,200">570/500&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Aastha Combo</option>
+    <option value="170,170,0,529,NA">699/NA&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Adventure Combo</option>
+    <option value="550,375,0,150">700/525&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Namah Combo</option>
+    <option value="370,180,155,250">775/585&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Viewing Fun Combo</option>
+    <option value="370,180,249,150">769/579&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Symbolic Play Combo</option>
+    <option value="170,80,199,520">889/799&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Ultimate Play Combo</option>
+    <option value="370,280,105,450">925/835&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Delight Combo</option>
+    <option value="570,380,199,200">969/779&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Mini Blast Combo</option>
+    <option value="350,175,200,550">1100/925&nbsp;&nbsp;:&nbsp;&nbsp;All In Fun Combo</option>
+    <option value="1350,775,0,200">1550/975&nbsp;&nbsp;:&nbsp;&nbsp;Divine Rush Combo</option>
+    <option value="1400,1400,449,2400,NA">4249/NA&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Ultimate Mega Combo</option>
 </select>
 
 <br>
@@ -1374,6 +1824,8 @@ function calc(){
 }
 
 function getVendorBreakup(comboName,pax){
+    comboName = String(comboName || "").toLowerCase();
+
     function line(items){
         return items
             .map(item => `${item.name}: ${item.price * pax}`)
@@ -1382,39 +1834,39 @@ function getVendorBreakup(comboName,pax){
 
     /* New October 2026 combos: grouped into the eight existing vendors. */
     const newBreakups = {
-        New1: `OEPL → Wax: ${40 * pax}\nPAEPL → Eyelusion: ${40 * pax} | WOK + WOG: ${49 * pax}`,
-        New2: `PAEPL → Gamezone: ${227 * pax}`,
-        New3: `OEPL → Wax: ${28 * pax}\nPAEPL → Mayalok: ${200 * pax}`,
-        New4: `OEPL → Snow: ${255 * pax}`,
-        New5: `PAEPL → Eyelusion: ${50 * pax} | Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
-        New6: `PAEPL → Gamezone: ${529 * pax}`,
-        New7: `PAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
-        New8: `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax} | Wax: ${50 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
-        New9: `OEPL → Snow: ${200 * pax} | Food: ${49 * pax}\nPAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
-        New10: `OEPL → Snow: ${199 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${70 * pax} | Mayalok: ${200 * pax}`,
-        New11: `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${200 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
-        New12: `OEPL → Food: ${50 * pax} | Souvenir: ${99 * pax} | Wax: ${50 * pax}\nPAEPL → WOK + WOG: ${200 * pax}`,
-        New13: `OEPL → Snow: ${200 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
-        New14: `PAEPL → Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
-        New15: `OEPL → Snow: ${150 * pax} | Food: ${99 * pax} | Souvenir: ${100 * pax} | Wax: ${100 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${800 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${1500 * pax}`
+        "Explorer Combo": `OEPL → Wax: ${40 * pax}\nPAEPL → Eyelusion: ${40 * pax} | WOK + WOG: ${49 * pax}`,
+        "Eco Adventure Combo": `PAEPL → Gamezone: ${227 * pax}`,
+        "Eco Fun Combo": `OEPL → Wax: ${28 * pax}\nPAEPL → Mayalok: ${200 * pax}`,
+        "Snow Adventure Combo": `OEPL → Snow: ${255 * pax}`,
+        "Aastha Combo": `PAEPL → Eyelusion: ${50 * pax} | Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
+        "Adventure Combo": `PAEPL → Gamezone: ${529 * pax}`,
+        "Namah Combo": `PAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
+        "Viewing Fun Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax} | Wax: ${50 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
+        "Symbolic Play Combo": `OEPL → Snow: ${200 * pax} | Food: ${49 * pax}\nPAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
+        "Ultimate Play Combo": `OEPL → Snow: ${199 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${70 * pax} | Mayalok: ${200 * pax}`,
+        "Delight Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${200 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
+        "Mini Blast Combo": `OEPL → Food: ${50 * pax} | Souvenir: ${99 * pax} | Wax: ${50 * pax}\nPAEPL → WOK + WOG: ${200 * pax}`,
+        "All in Fun Combo": `OEPL → Snow: ${200 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
+        "Divine Rush Combo": `PAEPL → Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
+        "Ultimate Mega Combo": `OEPL → Snow: ${150 * pax} | Food: ${99 * pax} | Souvenir: ${100 * pax} | Wax: ${100 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${800 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${1500 * pax}`
     };
 
     const newCombo = Object.keys(newBreakups)
-        .find(name => comboName.startsWith(name + ":"));
+        .find(name => comboName.includes(name.toLowerCase()));
 
     if(newCombo){
         return newBreakups[newCombo];
     }
 
-    if(comboName.includes("Snow Adventure")){
+    if(comboName.includes("snow adventure")){
         return `OEPL → ${line([{name:"Snow",price:255}])}`;
     }
 
-    if(comboName.includes("Adventure Combo")){
+    if(comboName.includes("adventure combo")){
         return `PAEPL → ${line([{name:"Gamezone",price:227}])}`;
     }
 
-    if(comboName.includes("TU Explorer")){
+    if(comboName.includes("tu explorer")){
         return `OEPL → ${line([{name:"Wax",price:70}])}
 PAEPL → ${line([
     {name:"Eyelusion",price:70},
@@ -1422,16 +1874,16 @@ PAEPL → ${line([
 ])}`;
     }
 
-    if(comboName.includes("ECO FUN")){
+    if(comboName.includes("eco fun")){
         return `OEPL → ${line([{name:"Wax",price:28}])}
 PAEPL → ${line([{name:"Mayalok",price:200}])}`;
     }
 
-    if(comboName.includes("Aastha")){
+    if(comboName.includes("aastha")){
         return `PAEPL → ${line([{name:"Gamezone",price:99}])}`;
     }
 
-    if(comboName.includes("Shiv Ganesha")){
+    if(comboName.includes("shiv ganesha")){
         return `PAEPL → ${line([
     {name:"Eyelusion",price:50},
     {name:"Gamezone",price:50},
@@ -1439,15 +1891,15 @@ PAEPL → ${line([{name:"Mayalok",price:200}])}`;
 ])}`;
     }
 
-    if(comboName.includes("Namah")){
+    if(comboName.includes("namah")){
         return `PAEPL → ${line([{name:"Gamezone",price:50}])}`;
     }
 
-    if(comboName.includes("Ultimate Play")){
+    if(comboName.includes("ultimate play")){
         return `PAEPL → ${line([{name:"Gamezone",price:529}])}`;
     }
 
-    if(comboName.includes("Viewing Fun")){
+    if(comboName.includes("viewing fun")){
         return `OEPL → ${line([
     {name:"Snow",price:225},
     {name:"Food",price:100}
@@ -1455,7 +1907,7 @@ PAEPL → ${line([{name:"Mayalok",price:200}])}`;
 PAEPL → ${line([{name:"Gamezone",price:50}])}`;
     }
 
-    if(comboName.includes("Symbolic")){
+    if(comboName.includes("symbolic")){
         return `OEPL → ${line([
     {name:"Snow",price:200},
     {name:"Wax",price:49}
@@ -1467,8 +1919,8 @@ PAEPL → ${line([
     }
 
     if(
-        comboName.includes("Delight") ||
-        comboName.includes("Mini Blast")
+        comboName.includes("delight") ||
+        comboName.includes("mini blast")
     ){
         return `OEPL → ${line([
     {name:"Snow",price:200},
@@ -1484,7 +1936,7 @@ PAEPL → ${line([
 ])}`;
     }
 
-    if(comboName.includes("All in Fun")){
+    if(comboName.includes("all in fun")){
         return `OEPL → ${line([
     {name:"Snow",price:200},
     {name:"Wax",price:50}
@@ -1497,14 +1949,14 @@ PAEPL → ${line([
 ])}`;
     }
 
-    if(comboName.includes("Divine Rush")){
+    if(comboName.includes("divine rush")){
         return `PAEPL → ${line([
     {name:"Gamezone",price:100},
     {name:"WOG",price:50}
 ])}`;
     }
 
-    if(comboName.includes("Ultimate Mega")){
+    if(comboName.includes("ultimate mega")){
         return `OEPL → ${line([
     {name:"Snow",price:150},
     {name:"Food",price:99},
@@ -2760,12 +3212,14 @@ function getReceiptActivityLines(breakup){
 }
   
 function toggleTheme(){
-    const dark = document.body.classList.toggle("dark");
+    const nextTheme = document.body.classList.contains("dark")
+        ? "light"
+        : "dark";
 
-    localStorage.setItem("theme",dark ? "dark" : "light");
-
+    document.body.classList.toggle("dark",nextTheme === "dark");
+    localStorage.setItem("theme",nextTheme);
     document.querySelector(".hiText").textContent =
-        dark ? "🌙 Hi," : "🌞 Hi,";
+        nextTheme === "dark" ? "🌙 Hi," : "🌞 Hi,";
 }
 
 async function startScanner(){
@@ -3073,8 +3527,11 @@ window.addEventListener("online",() =>
 );
 
 function restoreFormState(){
-    combo.value =
-        localStorage.getItem("lastCombo") || "";
+    const savedCombo = localStorage.getItem("lastCombo") || "";
+    combo.value = Array.from(combo.options)
+        .some(option => option.value === savedCombo)
+        ? savedCombo
+        : "";
 
     adults.value =
         localStorage.getItem("lastAdults") || "";
@@ -3113,10 +3570,21 @@ usernameInput.addEventListener("change",() => {
     render();
 });
 
-if(localStorage.getItem("theme") === "dark"){
+const savedTheme = localStorage.getItem("theme");
+
+if(savedTheme === "dark"){
     document.body.classList.add("dark");
-    document.querySelector(".hiText").textContent = "🌙 Hi,";
+}else{
+    document.body.classList.remove("dark","golden");
 }
+
+// Migrate previous golden-theme preference to the default light theme.
+if(savedTheme === "golden"){
+    localStorage.setItem("theme","light");
+}
+
+document.querySelector(".hiText").textContent =
+    savedTheme === "dark" ? "🌙 Hi," : "🌞 Hi,";
 loadUserLocalData();
 render();
 setCloudStatus(
