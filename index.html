@@ -1532,7 +1532,7 @@ body.golden td{
 </div>
 
 <div class="footer-left">
-    26J10 | V4.9 <span id="cloudStatus" title="Cloud status">☁️✅</span>
+    26J11 | V4.9 <span id="cloudStatus" title="Cloud status">☁️✅</span>
 </div>
 
 <div id="scannerOverlay" class="scannerOverlay">
@@ -1834,21 +1834,21 @@ function getVendorBreakup(comboName,pax){
 
     /* New October 2026 combos: grouped into the eight existing vendors. */
     const newBreakups = {
-        "Explorer Combo": `OEPL → Wax: ${40 * pax}\nPAEPL → Eyelusion: ${40 * pax} | WOK + WOG: ${49 * pax}`,
+        "Explorer Combo": `OEPL → Wax: ${40 * pax}\nPAEPL → Eyelusion: ${40 * pax} | WOG: ${49 * pax}`,
         "Eco Adventure Combo": `PAEPL → Gamezone: ${227 * pax}`,
         "Eco Fun Combo": `OEPL → Wax: ${28 * pax}\nPAEPL → Mayalok: ${200 * pax}`,
         "Snow Adventure Combo": `OEPL → Snow: ${255 * pax}`,
-        "Aastha Combo": `PAEPL → Eyelusion: ${50 * pax} | Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
+        "Aastha Combo": `PAEPL → Eyelusion: ${50 * pax} | Gamezone: ${50 * pax}`,
         "Adventure Combo": `PAEPL → Gamezone: ${529 * pax}`,
-        "Namah Combo": `PAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
-        "Viewing Fun Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax} | Wax: ${50 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
-        "Symbolic Play Combo": `OEPL → Snow: ${200 * pax} | Food: ${49 * pax}\nPAEPL → Gamezone: ${50 * pax} | WOK + WOG: ${100 * pax}`,
-        "Ultimate Play Combo": `OEPL → Snow: ${199 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${70 * pax} | Mayalok: ${200 * pax}`,
-        "Delight Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${200 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
-        "Mini Blast Combo": `OEPL → Food: ${50 * pax} | Souvenir: ${99 * pax} | Wax: ${50 * pax}\nPAEPL → WOK + WOG: ${200 * pax}`,
-        "All in Fun Combo": `OEPL → Snow: ${200 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${200 * pax}`,
-        "Divine Rush Combo": `PAEPL → Gamezone: ${100 * pax} | WOK + WOG: ${100 * pax}`,
-        "Ultimate Mega Combo": `OEPL → Snow: ${150 * pax} | Food: ${99 * pax} | Souvenir: ${100 * pax} | Wax: ${100 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${800 * pax} | WOK + WOG: ${100 * pax} | Mayalok: ${1500 * pax}`
+        "Namah Combo": `PAEPL → Gamezone: ${50 * pax}`,
+        "Viewing Fun Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax} | Wax: ${50 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${100 * pax}`,
+        "Symbolic Play Combo": `OEPL → Snow: ${200 * pax} | Food: ${49 * pax}\nPAEPL → Gamezone: ${50 * pax}`,
+        "Ultimate Play Combo": `OEPL → Snow: ${199 * pax}\nPAEPL → Gamezone: ${250 * pax} | WOG: ${70 * pax} | Mayalok: ${200 * pax}`,
+        "Delight Combo": `OEPL → Food: ${45 * pax} | Souvenir: ${60 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${200 * pax} | Mayalok: ${200 * pax}`,
+        "Mini Blast Combo": `OEPL → Food: ${50 * pax} | Souvenir: ${99 * pax} | Wax: ${50 * pax}`,
+        "All in Fun Combo": `OEPL → Snow: ${200 * pax}\nPAEPL → Gamezone: ${250 * pax} | Mayalok: ${200 * pax}`,
+        "Divine Rush Combo": `PAEPL → Gamezone: ${100 * pax}`,
+        "Ultimate Mega Combo": `OEPL → Snow: ${150 * pax} | Food: ${99 * pax} | Souvenir: ${100 * pax} | Wax: ${100 * pax}\nPAEPL → Eyelusion: ${50 * pax} | Gamezone: ${2100 * pax} | Mayalok: ${150 * pax}`
     };
 
     const newCombo = Object.keys(newBreakups)
